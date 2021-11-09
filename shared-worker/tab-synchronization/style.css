@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanation {
+  text-align: center;
+}
+
+.explanation__heading {
+}
+
+.explanation__text {
+
+}
+
+.counter {
+
+}
+
+#counter__number {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10rem;
+}
+
+#counter__increment {
+
+}
+
+.btn {
+  font-family: inherit;
+  padding: .5em;
+  cursor: pointer;
+}

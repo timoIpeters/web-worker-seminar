@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Tab Synchronization</title>
+</head>
+<body>
+  <div class="explanation">
+    <h1 class="explanation__heading">Tab Synchronization using a Shared Worker</h1> 
+    <p class="explanation__text">
+      Use the buttons to increment/decrement the counter below. 
+      To test the tab synchronization feature, open this page in another tab
+      and increment the counter in one of the tabs to see it being incremented
+      on the other tab as well.
+    </p>
+  </div>
+  <div class="counter">
+    <h1 id="counter__number">0</h1>
+    <button type=button" class="btn" id="counter__increment">Increment!</button>
+    <button type=button" class="btn" id="counter__decrement">Decrement!</button>
+  </div>
+</body>
+</html>
