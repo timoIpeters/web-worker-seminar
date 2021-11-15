@@ -15,6 +15,6 @@ Seminar made for the "Seminar Informatik" module of the [FH-Wedel](https://www.f
 
 * service-worker:
 
-  These examples show how to apply a service worker to any website. The __registration-and-events__ example shows the initialization of a shared worker and the events you can use in the service worker out of the box. In the __caching__ example some pictures are cached when entering the website. Once those are loaded into the cache, does not need an internet connection anymore to load the pictures.
+  These examples show how to apply a service worker to any website. The __registration-and-events__ example shows the initialization of a shared worker and the events you can use in the service worker out of the box. In the __caching__ example some pictures are cached when entering the website. Once those are loaded into the cache, the website can be used in offline mode.
 
 _This project is licensed under the terms of the MIT license_
