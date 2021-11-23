@@ -18,5 +18,9 @@ if(window.Worker) {
 }
 
 waitButton.addEventListener("click", () => {
-  waitResult.innerHTML = "Hello while you wait";
-});
+  if (waitResult.innerHTML) {
+    waitResult.innerHTML = "";
+  } else {
+    waitResult.innerHTML = "Hello while you wait";
+  }
+})

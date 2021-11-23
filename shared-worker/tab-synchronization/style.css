@@ -22,7 +22,8 @@ body {
 }
 
 .counter {
-
+  border: .2rem solid black;
+  padding: 1rem;
 }
 
 #counter__number {
@@ -32,11 +33,27 @@ body {
 }
 
 #counter__increment {
+  background-color: rgb(37, 146, 37);
+  margin-right: .5rem;
+}
 
+#counter__decrement {
+  background-color: rgb(170, 47, 47);
 }
 
 .btn {
   font-family: inherit;
+  font-size: 2rem;
   padding: .5em;
   cursor: pointer;
+  outline: none;
+  color: white;
+  border: 1px solid black;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  opacity: .75;
 }
