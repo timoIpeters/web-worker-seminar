@@ -14,11 +14,6 @@ const command = {
 
 myId.innerHTML = 'senderId: ' + tabSenderId;
 
-/* 
-  TODO: What is the initial state?
-  TODO: Why do i send all of the messages to every port when i am only using the last received message
-*/
-
 form.addEventListener('submit', function(e) {
   e.preventDefault();
   worker.port.postMessage([command.ADD, createMessage(messageInput.value)])  
@@ -26,7 +21,6 @@ form.addEventListener('submit', function(e) {
 });
 
 clearBtn.addEventListener('click', function(e) {
-  //TODO: do need to send this?
   worker.port.postMessage([command.SET, []]);
   messageContainer.innerHTML = '';
 });

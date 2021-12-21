@@ -14,6 +14,4 @@ self.addEventListener('notificationclick', event => {
 
 self.addEventListener('notificationclose', event => {
   event.notification.close();
-  console.log("Have fun")
-  fetch('/api/notification-closed').then(res => console.log(res)).catch(err => console.error(err));
-})
+});
